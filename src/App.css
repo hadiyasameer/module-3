@@ -1,0 +1,50 @@
+footer {
+    height: 50px;
+    padding-top: 10px;
+    background-color: rgb(0, 50, 250);
+}
+
+.carousel-image {
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.body {
+    background-color: rgb(245, 249, 252);
+    padding: 10px;
+}
+
+.productItem {
+    border-radius: 10px;
+    border: 1px solid grey;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(245, 249, 252);
+}
+
+.productImage {
+    width: 90%;
+    margin: 5%;
+    height: 300px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 280px;
+}
+
+.card-actions {
+    margin-top: auto;
+}
+
+.viewButton,
+.addButton {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.viewButton {
+    margin-top: 0;
+}
