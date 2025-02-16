@@ -11,12 +11,12 @@ function App() {
   return (
     <>
       <Router>
-        <Header />
+      <Header />
         <Routes>
           <Route path='/module-3' element={<Main />} />
           <Route path='/product/:productId' element={<ProductDetails />} />
         </Routes>
-        <Footer />
+      <Footer />
       </Router>
     </>
   )
